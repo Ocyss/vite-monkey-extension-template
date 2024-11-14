@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#vite-app {
+  z-index: 9999;
+  position: fixed;
+  padding: 10px;
+  top: 139px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ZEpPmd, #757fa4);
+  width: 45%;
+  height: 80%;
+}
