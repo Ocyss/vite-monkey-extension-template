@@ -11,7 +11,7 @@ A versatile development template based on Vue 3, Vite, and TailwindCSS, supporti
 - ⚡️ [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - 🎨 [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
 - 📦 [VueUse](https://vueuse.org/) - Collection of Vue Composition API utilities
-- 🔧 Multiple build targets support:
+- 🔧 Multiple build targets support: [vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey) + [vite-plugin-web-extension](https://github.com/aklinker1/vite-plugin-web-extension)
   - Tampermonkey script
   - Chrome extension
   - Firefox extension
@@ -53,3 +53,12 @@ pnpm dev:extf
 pnpm build:extf
 pnpm preview:extf
 ```
+
+## Acknowledgements
+
+- [vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey)
+- [vite-plugin-web-extension](https://github.com/aklinker1/vite-plugin-web-extension)
+
+## License
+
+[MIT](./LICENSE)

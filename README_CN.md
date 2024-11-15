@@ -2,7 +2,7 @@
 
 [English](README.md) | [中文](README_CN.md)
 
-一个基于 Vue 3、Vite 和 TailwindCSS 的多功能开发模板，支持油猴脚本和浏览器扩展开发。
+一个基于 Vue 3、Vite 和 TailwindCSS 的现代化开发模板，支持油猴脚本和浏览器扩展开发。
 
 > 注意：油猴脚本和浏览器扩展的维护优先级不同，油猴脚本优先级更高。
 
@@ -11,7 +11,7 @@
 - ⚡️ [Vue 3](https://vuejs.org/) + [Vite](https://vitejs.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - 🎨 [TailwindCSS](https://tailwindcss.com/) - 原子化 CSS 框架
 - 📦 [VueUse](https://vueuse.org/) - Vue Composition API 工具集
-- 🔧 支持多种构建目标:
+- 🔧 支持多种构建目标: [vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey) + [vite-plugin-web-extension](https://github.com/aklinker1/vite-plugin-web-extension)
   - 油猴脚本 (Tampermonkey)
   - Chrome 扩展
   - Firefox 扩展
@@ -52,3 +52,12 @@ pnpm dev:extf
 pnpm build:extf
 pnpm preview:extf
 ```
+
+## 鸣谢
+
+- [vite-plugin-monkey](https://github.com/lisonge/vite-plugin-monkey)
+- [vite-plugin-web-extension](https://github.com/aklinker1/vite-plugin-web-extension)
+
+## 许可证
+
+[MIT](./LICENSE)
